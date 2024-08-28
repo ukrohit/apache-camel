@@ -7,11 +7,11 @@ public class SumNNaturalNumber {
     public static void main(String[] args) {
         int n = 9;
 
-        System.out.println("Start time " + LocalTime.now());
+       /* System.out.println("Start time " + LocalTime.now());
         int sum = sum(n);
 
         System.out.println("Sum using for loop " + sum);
-        System.out.println("End  time " + LocalTime.now());
+        System.out.println("End  time " + LocalTime.now());*/
 
         System.out.println("Start time " + LocalTime.now());
         int sum2 = sumFormula(n);
