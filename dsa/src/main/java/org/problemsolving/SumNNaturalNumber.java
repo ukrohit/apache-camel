@@ -6,7 +6,7 @@ public class SumNNaturalNumber {
 
     public static void main(String[] args) {
 
-        System.out.println("This is my first demo brnach ");
+        System.out.println("This is my first demo 1 brnach ");
 
         int n = 9;
 
