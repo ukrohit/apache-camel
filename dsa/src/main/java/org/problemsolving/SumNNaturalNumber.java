@@ -5,6 +5,9 @@ import java.time.LocalTime;
 public class SumNNaturalNumber {
 
     public static void main(String[] args) {
+
+        System.out.println("This is my first demo brnach ");
+
         int n = 9;
 
         System.out.println("Start time " + LocalTime.now());
