@@ -1,0 +1,58 @@
+{
+  "clientId": "epl-client",
+  "name": "epl-client",
+  "description": "client for epl dev ",
+  "rootUrl": "http://localhost:4200/*",
+  "adminUrl": "http://localhost:4200/*",
+  "baseUrl": "https://localhost:8443/realms/epl-client/",
+  "surrogateAuthRequired": false,
+  "enabled": true,
+  "alwaysDisplayInConsole": false,
+  "clientAuthenticatorType": "client-secret",
+  "secret": "OuZoHGg6LgOlbl4vnJdO7oSUQn5hB5am",
+  "redirectUris": [
+    "http://localhost:4200/*/*"
+  ],
+  "webOrigins": [
+    "http://localhost:4200/*"
+  ],
+  "notBefore": 0,
+  "bearerOnly": false,
+  "consentRequired": false,
+  "standardFlowEnabled": true,
+  "implicitFlowEnabled": false,
+  "directAccessGrantsEnabled": true,
+  "serviceAccountsEnabled": false,
+  "publicClient": false,
+  "frontchannelLogout": true,
+  "protocol": "openid-connect",
+  "attributes": {
+    "oidc.ciba.grant.enabled": "false",
+    "client.secret.creation.time": "1703760787",
+    "backchannel.logout.session.required": "true",
+    "oauth2.device.authorization.grant.enabled": "false",
+    "display.on.consent.screen": "false",
+    "backchannel.logout.revoke.offline.tokens": "false"
+  },
+  "authenticationFlowBindingOverrides": {},
+  "fullScopeAllowed": true,
+  "nodeReRegistrationTimeout": -1,
+  "defaultClientScopes": [
+    "web-origins",
+    "acr",
+    "profile",
+    "roles",
+    "email"
+  ],
+  "optionalClientScopes": [
+    "address",
+    "phone",
+    "offline_access",
+    "microprofile-jwt"
+  ],
+  "access": {
+    "view": true,
+    "configure": true,
+    "manage": true
+  }
+}
